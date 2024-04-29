@@ -1,9 +1,9 @@
 package com.cnor.expensetracker.dtos.request.expenserequest;
 
 
-public enum ExpensePatchType {
+public enum ExpensePatchField {
     AMOUNT,
     DESCRIPTION,
     DATE,
-    EXPENSETYPE
+    EXPENSETYPE;
 }
